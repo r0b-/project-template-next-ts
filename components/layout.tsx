@@ -1,4 +1,5 @@
 import * as React from "react";
+import Footer from "./footer";
 import Head from "./head";
 import Nav from "./nav";
 
@@ -14,5 +15,6 @@ export default ({title, description, children}: ILayoutProps) => (
         <Nav/>
         <h1>{title}</h1>
         {children}
+        <Footer/>
     </>
 );
