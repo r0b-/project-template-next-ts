@@ -1,0 +1,24 @@
+# dependencies & project
+/node_modules
+/.idea
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/.next
+
+# generated js files in subfolders
+/components/**/*.js
+/pages/**/*.js
+/tests/**/*.js
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
