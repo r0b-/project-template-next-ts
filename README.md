@@ -2,10 +2,11 @@
 
 Project boilerplate build with [create-next-app](https://open.segment.com/create-next-app) and some additional packages to get you started with:
 - [next.js](https://github.com/zeit/next.js/) - React16 + SSR + HMR + Prefetching + Code Splitting
+    - The project includes a basic app structure with head, navigation and footer components that are wrapper by a layout component that can be inlcuded on each page.
 - [TypeScript](https://www.typescriptlang.org) - Typed superset for JavaScript
 - [TSLint](https://palantir.github.io/tslint/) - Linter for TypeScript
 - [styled-components](https://www.styled-components.com/) - Component based styling with TypeScript support
-- [Jest](https://facebook.github.io/jest/) + [Enzyme](http://airbnb.io/enzyme/) - React testing (unit, snapshot, mocking,...) with TypeScript support! Thanks to [ts-jest](https://github.com/kulshekhar/ts-jest)
+- [Jest](https://facebook.github.io/jest/) + [Enzyme](http://airbnb.io/enzyme/) - React testing (unit, snapshot, mocking,...) with TypeScript support. Thanks to [ts-jest](https://github.com/kulshekhar/ts-jest)
       
 ### Setup
 
@@ -14,10 +15,10 @@ Project boilerplate build with [create-next-app](https://open.segment.com/create
 3. cd `project-template-next-ts`
 4. Install dependencies: `yarn`
 5. Optional for WebStorm/PHPStorm:<br> 
-- Install or activate plugins: 'tslint', 'styled-components', 'TypeScript spec file generator / navigator'
-- To use the integrated test runner add a 'Jest' run configuration and add `--watch` to 'Jest options'
-- To use the integrated code analysis enable TSLint under 'Languages & Frameworks > TypeScript > TSLint'   
-- Hide generated js files with right-click on project folder and select 'Hide ignored files'. (Edit .gitignore for more locations.)
+    - Install or activate plugins: 'tslint', 'styled-components', 'TypeScript spec file generator / navigator'
+    - To use the integrated test runner add a 'Jest' run configuration and add `--watch` to 'Jest options'
+    - To use the integrated code analysis enable TSLint under 'Languages & Frameworks > TypeScript > TSLint'   
+    - Hide generated js files with right-click on project folder and select 'Hide ignored files'. (Edit .gitignore for more locations.)
 
 ### Available Scripts
 
