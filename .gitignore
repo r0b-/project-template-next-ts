@@ -4,6 +4,7 @@
 
 # testing
 /coverage
+/**/__snapshots__
 
 # production
 /build
@@ -14,7 +15,6 @@
 /components/**/*.js
 /pages/**/*.js
 /tests/**/*.js
-/tests/__snapshots__
 
 # misc
 .DS_Store
