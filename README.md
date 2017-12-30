@@ -2,7 +2,7 @@
 
 Project boilerplate build with [create-next-app](https://open.segment.com/create-next-app) and some additional packages to get you started with:
 - [next.js](https://github.com/zeit/next.js/) - React16 + SSR + HMR + Prefetching + Code Splitting
-    - The project includes a basic app structure with head, navigation and footer components that are wrapper by a layout component that can be inlcuded on each page.
+    - The project includes a basic app structure with head, navigation and footer components that are wrapped by a layout component that can be inlcuded on each page.
 - [TypeScript](https://www.typescriptlang.org) - Typed superset for JavaScript
 - [TSLint](https://palantir.github.io/tslint/) - Linter for TypeScript
 - [styled-components](https://www.styled-components.com/) - Component based styling with TypeScript support
