@@ -4,7 +4,7 @@
   "scripts": {
     "prebuild": "tsc",
     "dev": "concurrently \"tsc --pretty --watch\" \"next\"",
-    "test": "jest --watch",
+    "test": "jest",
     "build": "next build",
     "start": "next start"
   },
