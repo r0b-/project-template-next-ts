@@ -1,6 +1,6 @@
 import {shallow} from "enzyme";
 import * as React from "react";
-import Nav from "../components/nav";
+import Nav from "../../components/nav";
 
 describe("Navigation component", () => {
     it("should include two links", () => {

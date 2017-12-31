@@ -1,6 +1,6 @@
 import {shallow} from "enzyme";
 import * as React from "react";
-import Head from "../components/head";
+import Head from "../../components/head";
 
 describe("Head component", () => {
     it("should include correct meta tags", () => {

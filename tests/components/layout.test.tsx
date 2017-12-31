@@ -1,6 +1,6 @@
 import {shallow} from "enzyme";
 import * as React from "react";
-import Layout from "../components/layout";
+import Layout from "../../components/layout";
 
 describe("Layout component", () => {
     it("should render correctly", () => {
