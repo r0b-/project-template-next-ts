@@ -4,7 +4,7 @@
   "scripts": {
     "prebuild": "tsc",
     "dev": "concurrently \"tsc --pretty --watch\" \"next\"",
-    "test": "jest",
+    "test": "jest --coverage ",
     "build": "next build",
     "start": "next start"
   },
@@ -20,7 +20,11 @@
       "jsx",
       "json"
     ],
-    "setupTestFrameworkScriptFile": "<rootDir>jest.setup.tsx"
+    "setupTestFrameworkScriptFile": "<rootDir>jest.setup.tsx",
+    "coverageDirectory": "<rootDir>tests/__coverage__",
+    "collectCoverageFrom": [
+      "{pages,components}/*.{ts,tsx}"
+    ]
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.4.0",

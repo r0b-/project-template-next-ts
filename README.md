@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/r0b-/project-template-next-ts.svg?branch=master)](https://travis-ci.org/r0b-/project-template-next-ts)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a52c8bdcf626ce83dfd9/maintainability)](https://codeclimate.com/github/r0b-/project-template-next-ts/maintainability)
 
 ## About
 
