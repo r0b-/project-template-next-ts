@@ -21,7 +21,6 @@
       "json"
     ],
     "setupTestFrameworkScriptFile": "<rootDir>jest.setup.tsx",
-    "coverageDirectory": "<rootDir>tests/__coverage__",
     "collectCoverageFrom": [
       "{pages,components}/*.{ts,tsx}"
     ]

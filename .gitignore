@@ -3,7 +3,7 @@
 /.idea
 
 # testing
-/tests/__coverage__
+/coverage
 jest.setup.js
 
 # production
