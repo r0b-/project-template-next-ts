@@ -4,7 +4,6 @@
 
 # testing
 /coverage
-/**/__snapshots__
 jest.setup.js
 
 # production

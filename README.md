@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/r0b-/project-template-next-ts.svg?branch=master)](https://travis-ci.org/r0b-/project-template-next-ts)
+
 ## About
 
 Project boilerplate build with [create-next-app](https://open.segment.com/create-next-app) and some additional packages to get you started with:
