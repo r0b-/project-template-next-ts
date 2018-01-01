@@ -13,8 +13,10 @@ export default ({title, description, children}: ILayoutProps) => (
     <>
         <Head title={title} description={description}/>
         <Nav/>
-        <h1>{title}</h1>
-        {children}
+        <main>
+            <h1>{title}</h1>
+            {children}
+        </main>
         <Footer/>
     </>
 );

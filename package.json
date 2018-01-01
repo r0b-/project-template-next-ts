@@ -22,7 +22,8 @@
     ],
     "setupTestFrameworkScriptFile": "<rootDir>jest.setup.tsx",
     "collectCoverageFrom": [
-      "{pages,components}/*.{ts,tsx}"
+      "{pages,components}/*.{ts,tsx}",
+      "!**/_document.tsx"
     ]
   },
   "dependencies": {
