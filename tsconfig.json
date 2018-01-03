@@ -6,7 +6,9 @@
     "target": "esnext",
     "moduleResolution": "node"
   },
-  "exclude": [
-    "node_modules"
+  "include": [
+    "components",
+    "pages",
+    "tests"
   ]
 }

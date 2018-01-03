@@ -7,14 +7,10 @@
 jest.setup.js
 
 # production
-/build
-/dist
 /.next
 
 # generated js files in subfolders
-/components/**/*.js
-/pages/**/*.js
-/tests/**/*.js
+/*/**/*.js
 
 # misc
 .DS_Store
