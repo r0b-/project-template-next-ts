@@ -4,7 +4,8 @@
     "jsx": "react",
     "module": "esnext",
     "target": "esnext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "inlineSourceMap": true
   },
   "include": [
     "components",
