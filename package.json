@@ -2,8 +2,7 @@
   "name": "project-template-next-ts",
   "license": "MIT",
   "scripts": {
-    "prebuild": "tsc",
-    "dev": "concurrently \"tsc --pretty --watch\" \"next\"",
+    "dev": "next",
     "test": "jest --coverage ",
     "build": "next build",
     "start": "next start"
@@ -39,6 +38,7 @@
     "@types/jest": "^22.0.0",
     "@types/next": "^2.4.5",
     "@types/react": "^16.0.22",
+    "@zeit/next-typescript": "^0.0.8",
     "concurrently": "^3.5.0",
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.1",
