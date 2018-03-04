@@ -22,7 +22,6 @@ Project boilerplate build with [create-next-app](https://open.segment.com/create
     - Install or activate plugins: 'tslint', 'styled-components', 'TypeScript spec file generator / navigator'.
     - To use the integrated test runner add a 'Jest' run configuration. For continuous running tests add `--watch` to 'Jest options'.
     - To use the integrated code analysis enable TSLint under 'Languages & Frameworks > TypeScript > TSLint'.  
-    - Hide generated js files with right-click on project folder and select 'Hide ignored files'. (Edit .gitignore for more locations.)
 
 ### Available Scripts
 

@@ -9,9 +9,6 @@ jest.setup.js
 # production
 /.next
 
-# generated js files in subfolders
-/*/**/*.js
-
 # misc
 .DS_Store
 .env
